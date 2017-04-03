@@ -6,37 +6,29 @@
   
   <div class="form-group">
     <label>Ваше имя</label>
-    <input name="username" type="text" class="form-control" placeholder="Ваше имя">
+    <input name="username" type="text" class="form-control" placeholder="Ваше имя" required="">
   </div>
 
   <div class="form-group">
     <label>Ваш телефон</label>
-    <input name="phone" type="text" class="form-control" placeholder="Ваш телефон">
+    <input name="phone" type="text" class="form-control" placeholder="Ваш телефон" required="">
   </div>
 
   <div class="form-group">
     <label>Когда вас ждать?</label>
-    <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время">
+    <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время" required="">
   </div>
-  <h2>Select a wizard:</h2>
-  <p>
-  <label>
-    <input type="radio" name="master" id="optionsRadios1" value="Secator ninzja" checked>
-    Secator ninzja
-  </label>
-  </p>
-  <p>
-  <label>
-    <input type="radio" name="master" id="optionsRadios1" value="Boroda naxer" >
-    Boroda naxer
-  </label>
-  </p>
-  <p>
-   <label>
-    <input type="radio" name="master" id="optionsRadios1" value="Wizard" >
-    Wizapd
-  </label>
-  </p>
+
+  <div class="form-group">
+  <label>Выберите мастера:</label>
+  <select name="master" class="form-control">
+  <option value="Secator ninzja">Secator ninzja</option>
+  <option value="Boroda naxer">Boroda naxer</option>
+  <option value="Wizapd">Wizapd</option>
+  <option value="All Clean">All Clean</option>
+  <option value="Under Walt">Under Walt</option>
+  </select>
+  </div>
   <button type="submit" class="btn btn-primary">Записаться</button>
 
 </form>
