@@ -20,11 +20,13 @@ post '/visit' do
 	@phone = params[:phone]
 	@datetime = params[:datetime]
 	@master = params[:master]
+	@col = params[:col]
 
 	f = File.open("./public/visit.txt", "a")
-	f.write("Name: #{@username}, Phone: #{@phone}, Date: #{@datetime}, Wizard: #{@master}\n")
+	f.write("Name: #{@username}, Phone: #{@phone}, Date: #{@datetime}, Wizard: #{@master}, Color: #{@col}\n")
 	f.close
-	@message = "Hello #{@username} you phone #{@phone} we waiting you at #{@datetime} and Wizard: #{@master}"
+	@message = "Hello #{@username} you phone #{@phone} we waiting you at #{@datetime},
+	you color is #{@col} and Wizard: #{@master}"
 
 	erb :checkout
 end
@@ -53,3 +55,6 @@ end
 get '/contacts' do
 	erb :contacts
 end
+ get '/input' do
+ 	erb :input
+ end

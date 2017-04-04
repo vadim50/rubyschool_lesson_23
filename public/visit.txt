@@ -1,6 +1,3 @@
-Name: Petr, Phone: 8 988 311-93-19, Date: 6.04.2017, Wizard: Boroda naxer
-Name: Alex, Phone: 8909666043, Date: 3.04.2017, Wizard: Secator ninzja
-Name: Petr, Phone: 333 333 4444, Date: 6.04.2017, Wizard: Wizard
-Name: vadim, Phone: 89094594505, Date: 3.04.2017, Wizard: Secator ninzja 
-Name: Vasiliy, Phone: 8 988 311-93-19, Date: 5.04.2017, Wizard: All Clean
-Name: nikolay, Phone: 333 333 4444, Date: 3.04.2017, Wizard: Boroda naxer
+Name: vadim, Phone: 8 988 311-93-19, Date: 3.04.2017, Wizard: Wizapd, Color: #46d6db
+Name: Alex, Phone: 8 988 311-93-19, Date: 5.04.2017, Wizard: Secator ninzja, Color: #a4bdfc
+Name: Vasiliy, Phone: 8909666043, Date: 5.04.2017, Wizard: Boroda naxer, Color: #7ae7bf
