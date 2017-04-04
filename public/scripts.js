@@ -1,1 +1,3 @@
-$('#a').css('background-color', 'yellow');
+$(function(){
+  $('#color').simplecolorpicker();
+});
